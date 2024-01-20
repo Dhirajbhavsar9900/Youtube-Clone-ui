@@ -218,8 +218,8 @@ h3{
 
 
 
-
-@media screen and (min-width: 320px) {
+/* responsive for mobiles phones */
+@media screen and (max-width: 320px) {
     .headerleft img {
         width: 50px;
     }
@@ -242,3 +242,30 @@ h3{
         width: 0px;
     }
 }
+
+
+
+@media screen and (max-width: 375px) {
+    .headerleft img {
+        width: 50px;
+    }
+
+    .search input {
+        width: 91px;
+    }
+
+    .search button {
+        width: 31px;
+    }
+    .headerleft img {
+        width: 36px;
+    }
+    .headerleft i {
+        padding: 0 1px;
+        cursor: pointer;
+    }
+    .sidebar {
+        width: 0px;
+    }
+}
+
