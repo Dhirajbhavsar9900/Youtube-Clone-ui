@@ -147,6 +147,10 @@ hr{
     border-radius: 8px;
 }
 
+.video_thumbnail:hover {
+    transform: scale(1.1);
+}
+
 .author img{
     object-fit: cover;
     border-radius: 50%;
